@@ -1,4 +1,4 @@
-site_name: Mol* Viewer Documentation
+site_name: Mol* Viewer 文档
 theme:
   name: null
   custom_dir: mkdocs-material/material
@@ -25,4 +25,4 @@ theme:
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
-repo_url: https://github.com/molstar/viewer-docs
+repo_url: https://github.com/AimLuo/viewer-docs
