@@ -1,19 +1,24 @@
 ﻿**Maneuvering in Mol\***
+
+> 点击选中模型节点的逻辑，没啥好翻译的，自己操作才知道
+
 #### **Understanding how to Maneuver through Mol\***
+
 Visualizing structures in Mol\* requires an understanding of how to maneuver through the controls. This section is aimed at explaining the fundamentals of how Mol\* works and how to effectively perform actions within it.
 
 #### **Focus**
+
 Focusing adjusts the view of the camera and the center of rotation on specific atoms, residues, or parts of structures. Once the camera is focused on a selection, other items in the structure may appear hidden from the camera because they fall outside the region being viewed or are clipped. There are four ways to change the focus of the camera:
 
 1. In default mode, click on a residue in the 3D canvas. It will automatically be centered and zoomed-in. The residue along with its surrounding residues will be represented as ball & stick. All local non-covalent interactions will be shown.
 1. In default mode, click on a residue in the Sequence Panel. It will automatically be centered and zoomed-in. The residue along with its surrounding residues will be represented as ball & stick and nearby interactions will be shown.
 1. If an object is listed in the [Components Panel](managing-the-display.md#components-panel), it can be clicked on which will make it the focus of the camera.
-1. If an object is currently selected, it will be listed in the [Structure Panel](managing-the-display.md#structure-panel). For example, if four residues are selected, the Structure Panel will read “4 Residues Selected.” If this text is clicked on, the four residues will become the focus. 
+1. If an object is currently selected, it will be listed in the [Structure Panel](managing-the-display.md#structure-panel). For example, if four residues are selected, the Structure Panel will read “4 Residues Selected.” If this text is clicked on, the four residues will become the focus.
 
 <img src="../img/structure.png" width="400">
 
-
 #### **Selections Logic**
+
 Making selections is often the first step to performing a range of operations. Selections are made using [Selection Mode](making-selections.md#selection-mode) which is activated using the cursor or arrow head icon in the Toggle Menu. The [Picking Level](making-selections.md#picking-level) determines the specificity of the selection. For example, keeping the Picking Level on “residue” enables individual or groups of amino acid residues to be selected, while changing the Picking Level to “chain” allows whole chains to be selected. After the desired Picking Level is chosen, selections can be made by:
 
 - Clicking on parts of the structure in the 3D canvas
@@ -31,6 +36,7 @@ After selections are made, several tasks can be directly performed using the cur
 - Creating [measurements](managing-the-display.md#measurements-panel)
 
 #### **Components Logic**
+
 After making a selection, a component can be made from it. Creating components allows the user to make groupings of certain parts of a structure which can later be manipulated. It is not always necessary to create components, but it can be helpful in certain circumstances. For example, if you have selected a number of residues in a protein that you may be returning to multiple times to perform different actions, it may be helpful to create a component for quick reference.
 
 The following are actions that can be performed with components:
@@ -50,4 +56,4 @@ Using a component can be helpful for certain tasks:
 - Changing the representation after hiding certain parts of the structure
 - Grouping certain parts of different components into other components by modifying selection
 
-Based on the [RCSB PDB mol* documentation](https://www.rcsb.org/3d-view/molstar/help/getting-started) thanks to the generosity of RCSB PDB and Dr. Shuchismita Dutta.
+Based on the [RCSB PDB mol\* documentation](https://www.rcsb.org/3d-view/molstar/help/getting-started) thanks to the generosity of RCSB PDB and Dr. Shuchismita Dutta.

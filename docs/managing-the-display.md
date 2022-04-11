@@ -1,7 +1,11 @@
 ﻿**Managing the Display**
+
 #### **Controls Panel**
+
 This section contains panels that allow for modification and manipulation of the structure display.
+
 #### **Structure Panel**
+
 The Structure Panel allows the user to view the structure in different forms depending on the purpose. The options of display include the deposited coordinates or asymmetric unit (called Model) or various assemblies of the deposited coordinates.
 
 <img src="../img/structurepanel.png" width="200">
@@ -32,6 +36,7 @@ Under the structure name, you can select the type of view {Model, Assembly, Symm
 If multiple structures are uploaded at [molstar.org/viewer/](https://molstar.org/viewer/) , the Structure Panel will list all the structures. The Structures menu is useful for selecting a structure to have its components listed in the Components Panel.
 
 #### **Measurements Panel**
+
 <img src="../img/measurementspanel.png" width="200">
 
 The Measurements Panel allows the user to make desired measurements in a structure ([labels](managing-the-display.md#labels), [distances](managing-the-display.md#distance), [angles](managing-the-display.md#angles), [dihedrals](managing-the-display.md#dihedrals)) to observe relationships between units in the structure (e.g. hydrogen bond distance between atoms).
@@ -95,6 +100,7 @@ Click on the Dihedral option, and a dihedral angle measurement will show up on t
 The icons in the Dihedrals menu perform the same actions as those in the Labels menu. See [Labels](managing-the-display.md#labels-menu) for more information.
 
 #### **Components Panel**
+
 The Components Panel shows options for the manipulation and display of the contents of the structure(s) being viewed. Components are representations of certain parts of the structure being visualized. For more information, see [Components Logic](maneuvering-in-mol_.md#components-logic).
 
 By default, the preset that shows up when a structure is Polymer & Ligand, in which the polymers, ligands and water components are shown. Additional components can be added by selecting groups of atoms, residues, or chains.
@@ -125,7 +131,6 @@ Components that can be viewed under the panel can include the polymer, any ligan
 
 <img src="../img/componentspolymeroptions.png" width="200">
 
-
 The icons next to each component perform similar functions as seen in the Measurements Panel.
 
 When the options icon for a component is selected, various options are available.
@@ -138,15 +143,15 @@ A visual representation of the unit cell is also available, and can be enabled b
 
 The following are the representation options available:
 
-- Ball & stick 
+- Ball & stick
 - Cartoon
 - Gaussian surface
-- Label 
+- Label
 - Molecular surface
-- Orientation 
+- Orientation
 - Point
 - Putty
-- Validation clashes 
+- Validation clashes
 
 To modify a selection within a component, first make a selection, and choose Modify by Selection for the component of choice within the Components Panel, and choose one of these options:
 
@@ -159,6 +164,7 @@ Additionally, the Options button next to the Add button under the components pan
 <img src="../img/componentsoptions.png" width="200">
 
 #### **Density Panel**
+
 The Density Panel gives options to display the electron density maps used to determine the structure in the 3D canvas. This option is only available for structures solved by X-ray crystallography or cryogenic electron microscopy. When enabled, the display of each of the maps can be adjusted using the sliding bars available.
 
 Visualization of the maps can be adjusted by clicking the + icon next to each map, which will give a drop-down menu of options. They can be shown by a wireframe, which can be turned on by clicking next to the Wireframe option. The color of each map can be changed in this map, as well as the opacity of the map.
@@ -170,14 +176,18 @@ In order to view any changes made within this panel, click Update at the bottom 
 <img src="../img/densitypanel.png" width="200">
 
 #### **Assembly Symmetry Panel**
+
 The Assembly Symmetry Panel demonstrates any symmetries within the molecule when displayed in Assembly mode. Once enabled, any symmetries that are in the molecule will be available as a drop-down menu to display and visualize on the 3D canvas. Additionally, the [coloring](common-actions.md#color) of the symmetry can be adjusted.
 
 <img src="../img/assemblysymmetrypanel.png" width="200">
 
 #### **Import Panel (only available at [molstar.org/viewer/](https://molstar.org/viewer/))**
+
+> 好像都没有了，用的 Open Files
+
 The Import Panel enables users to upload multiple molecular structures into Mol\* to compare them or perform superpositions. The Import Panel can only be accessed at [molstar.org/viewer/](https://molstar.org/viewer/) and is located at the top of the Controls Panel.
 
-**Open Files:** The Open Files menu is used to upload structures from computer files. The menu also provides structure display options. To automatically view the structure in the 3D canvas, set Visuals to “On.” After a file is selected and the desired options are chosen, click “Apply” to upload the structure.
+**Open Files:** Visuals 设置为 on 后，点击应用后可以在画布中自动显示该模型
 
 <img src="../img/import1.png" width="200">
 
@@ -186,6 +196,9 @@ The Import Panel enables users to upload multiple molecular structures into Mol\
 <img src="../img/import2.png" width="200">
 
 #### **Session Panel (only available at [molstar.org/viewer/](https://molstar.org/viewer/))**
+
+> 好像都没有了，用的 Saving Views
+
 The Session Panel enables users to save sessions and views. Sessions are downloaded as computer files which can be opened in Mol\* at any time. In addition, users can share session files with others to collaborate. Within a Mol\* session, users are able to create “views” which contain all the information in the 3D canvas at the time the views were saved. Multiple views can be saved in a single session. The Session Panel can only be accessed at [molstar.org/viewer/](https://molstar.org/viewer/) and is located in the Controls Panel.
 
 **Saving Views:** The Views menu is used to save views in Mol\*. Users can name views and write a description for each one. After clicking “+ Add,” the view will be saved in the Views menu for the entirety of the session.
@@ -208,6 +221,7 @@ The Session Panel enables users to save sessions and views. Sessions are downloa
 **Download/Open Menu:** The Download/Open menu allows users to save sessions and states. It also allows them to be reopened at any time.
 
 #### **Superposition Panel (only available at [molstar.org/viewer/](https://molstar.org/viewer/))**
+
 The Superposition Panel rotates and translates molecular structures to make them match other structures. Mol\* performs superpositions by matching selected chains or atoms. The root-mean-square deviation (RMSD) of the superposed structures will be listed in the Log Panel at the bottom of the application window. To access the Superposition Panel, two or more structures must be [uploaded](managing-the-display.md#import-panel) at [molstar.org/viewer](https://molstar.org/viewer/). The Superposition Panel will appear in the Controls Panel next to the 3D canvas.
 
 <img src="../img/superpositionpanel.png" width="200">
@@ -224,4 +238,4 @@ The Superposition Panel rotates and translates molecular structures to make them
 
 <img src="../img/superpositionatomsselection.png" width="200">
 
-Based on the [RCSB PDB mol* documentation](https://www.rcsb.org/3d-view/molstar/help/getting-started) thanks to the generosity of RCSB PDB and Dr. Shuchismita Dutta.
+Based on the [RCSB PDB mol\* documentation](https://www.rcsb.org/3d-view/molstar/help/getting-started) thanks to the generosity of RCSB PDB and Dr. Shuchismita Dutta.
