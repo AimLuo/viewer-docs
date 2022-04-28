@@ -1,5 +1,7 @@
 # Mol* Viewer Documentation
 
+http://viewer-docs.cloudcrane.cn/  
+
 Contributions to the documentations are highly welcome! Please make a pull request with your changes.
 
 Requires Python 3.x to build.
